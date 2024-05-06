@@ -1,0 +1,113 @@
+body{
+    background-color: #122221;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+    color:#EAD2CE;
+    font-size: 36pt;
+    text-align: center;
+}
+.mainPart{
+    position: relative;
+    height: 90%;
+}
+h1 {
+    margin-bottom: 0%;
+    margin-top: 3%;
+}
+footer{
+    color: #125446; 
+    font-size: 30pt;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    margin-right: auto;
+    margin-left: auto;
+    width:60%;
+    height: 10%;  
+}
+.inputText{
+    background-color:#EAD2CE;
+    color:#125446;
+    font-size: 20pt;
+    float: left;
+    width:60%;
+}
+.addButton{
+    cursor: pointer;
+    background-color: #125446;
+    color:#EAD2CE;
+    font-size: 20pt;
+    width: 20%;
+    float: left;
+}
+.addButton:hover{
+    background-color: #3B877A;
+    color:#122221;
+}
+.clearButton{
+    cursor: pointer;
+    background-color: #DB8C7B;
+    color:#EAD2CE;
+    width: 20%;
+    font-size: 20pt;
+    float: left;
+}
+.clearButton:hover{
+    background-color: #EAD2CE;
+    color:#122221;
+}
+.hiddenText{
+    color:#EAD2CE;
+    font-size: 27pt;
+}
+.uList{
+    cursor: pointer;
+    position:absolute;
+    z-index: 2;
+    background-color: #3B877A;
+    font-size: 27pt;
+    margin-right: 30%;
+    margin-left: 30%;   
+    margin-top: 5%;
+    color: #122221; 
+    width:40%;
+    height:60%;
+    padding-top: 0%;
+    overflow:auto;
+    button{
+        cursor: pointer;
+        margin: 5px;
+        background-color: #125446;
+        font-size: 30pt;
+        color: #EAD2CE;
+        float: right;
+        height: 60px;
+        width: 60px;
+    }
+    sub{
+        color:#125446;
+        display: grid;
+        font-size: 18pt;
+    }
+}
+ul li {
+    display: flex;
+    justify-content: space-between;
+}
+ul li:hover {
+    background: #125446;
+    color: #EAD2CE;
+    button{
+        background: #DB8C7B;
+        color: white;
+    }
+}
+ul li.checked {
+    color: #888;
+    text-decoration: line-through;
+  }
